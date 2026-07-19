@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manisumanth Kalle — Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Manisumanth Kalle — Full-Stack Developer & DSA enthusiast, final-year CSE (Cybersecurity) student.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Editor-style tab bar navigation -->
+<header class="tabbar" id="tabbar">
+  <div class="tabbar-inner">
+    <span class="tabbar-logo">~/manisumanth</span>
+    <nav class="tabs">
+      <a href="#about" class="tab" data-file="about.js">about.js</a>
+      <a href="#skills" class="tab" data-file="skills.js">skills.js</a>
+      <a href="#projects" class="tab" data-file="projects.js">projects.js</a>
+      <a href="#education" class="tab" data-file="education.js">education.js</a>
+      <a href="#contact" class="tab" data-file="contact.js">contact.js</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO: terminal window -->
+  <section class="hero" id="hero">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="terminal-title">zsh — manisumanth</span>
+      </div>
+      <div class="terminal-body">
+        <p class="line"><span class="prompt">$</span> whoami</p>
+        <h1 class="typed-name" id="typedName"></h1>
+        <p class="line output"><span class="prompt">$</span> cat role.txt</p>
+        <p class="output role-line">Full-Stack Developer <span class="sep">·</span> DSA Enthusiast <span class="sep">·</span> Final-Year CSE (Cybersecurity) Student</p>
+        <p class="line"><span class="prompt">$</span> <span class="cursor">_</span></p>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="assets/Manisumanth_Kalle_Resume.pdf" class="btn btn-primary" download>↓ Download Resume</a>
+      <a href="https://github.com/Manisumanth" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+    </div>
+    <div class="scroll-hint">scroll <span>↓</span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <p class="comment">// about</p>
+    <h2 class="section-title">A bit about me</h2>
+    <div class="about-grid">
+      <p class="about-text">
+        I'm a final-year Computer Science &amp; Cybersecurity student at Geetanjali College of Engineering and Technology, Hyderabad.
+        I build full-stack web applications and spend a good chunk of my time solving Data Structures &amp; Algorithms problems —
+        it's how I sharpen the logic that goes into everything I build. Currently exploring Machine Learning and
+        Software Engineering practices alongside my core web development work.
+      </p>
+      <div class="stat-card">
+        <div class="stat"><span class="stat-num">7.57</span><span class="stat-label">CGPA</span></div>
+        <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects Shipped</span></div>
+        <div class="stat"><span class="stat-num">2025</span><span class="stat-label">Internship @ Cantilever Labs</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <p class="comment">// skills.txt</p>
+    <h2 class="section-title">What I work with</h2>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h3>Languages</h3>
+        <ul class="tags"><li>C</li><li>Java</li><li>Python</li><li>JavaScript</li></ul>
+      </div>
+      <div class="skill-block">
+        <h3>Web</h3>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>React (Basics)</li><li>Responsive Design</li></ul>
+      </div>
+      <div class="skill-block">
+        <h3>Focus Areas</h3>
+        <ul class="tags"><li>DSA</li><li>Web Development</li><li>Machine Learning</li><li>Software Engineering</li></ul>
+      </div>
+      <div class="skill-block">
+        <h3>Soft Skills</h3>
+        <ul class="tags"><li>Problem Solving</li><li>Logical Thinking</li><li>Communication</li><li>Team Collaboration</li><li>Leadership</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <p class="comment">// projects.js</p>
+    <h2 class="section-title">Things I've built</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-tab">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="project-filename">tech-companion.js</span>
+        </div>
+        <div class="project-body">
+          <h3>Tech Companion</h3>
+          <p class="project-sub">Software Company Recommendation Website</p>
+          <p>Categorizes software companies into Top, Mid, and Low tier to help students understand job opportunities and salary packages. Includes a review system where employees verify via company email so visitors get honest insights before applying.</p>
+          <ul class="tags small"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/Manisumanth" target="_blank" rel="noopener">View Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-tab">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="project-filename">atm-simulation.js</span>
+        </div>
+        <div class="project-body">
+          <h3>Bank ATM Simulation</h3>
+          <p class="project-sub">Web-based ATM Interface</p>
+          <p>Login via card number and PIN, with support for withdrawals and deposits. Transaction logic handled entirely in JavaScript, with a clean UI modeled after real ATM systems.</p>
+          <ul class="tags small"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/Manisumanth" target="_blank" rel="noopener">View Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-tab">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="project-filename">watch-store.jsx</span>
+        </div>
+        <div class="project-body">
+          <h3>Online Watch Shopping</h3>
+          <p class="project-sub">E-commerce Website in React</p>
+          <p>Full shopping flow — login, product listing, add-to-cart, orders, and cart management — with database-backed cart storage and an authentication flow.</p>
+          <ul class="tags small"><li>React</li><li>JavaScript</li><li>CSS</li></ul>
+          <div class="project-links">
+            <a href="https://github.com/Manisumanth" target="_blank" rel="noopener">View Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <p class="project-note">More on <a href="https://github.com/Manisumanth" target="_blank" rel="noopener">github.com/Manisumanth ↗</a></p>
+  </section>
+
+  <!-- EDUCATION + ACHIEVEMENTS -->
+  <section class="section" id="education">
+    <p class="comment">// education.js</p>
+    <h2 class="section-title">Education &amp; milestones</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-date">Nov 2023 — Jun 2027</span>
+        <h3>B.Tech, Computer Science &amp; Cybersecurity</h3>
+        <p>Geetanjali College of Engineering and Technology, Hyderabad · CGPA 7.57</p>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">May — Jul 2025</span>
+        <h3>Summer Internship, Cantilever Labs</h3>
+        <p>Hands-on experience in software development.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">Jul 2021 — Jun 2023</span>
+        <h3>Intermediate</h3>
+        <p>Narayana Junior College, Hyderabad · 95.6%</p>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">Apr 2019 — Jun 2021</span>
+        <h3>Matriculation</h3>
+        <p>Narayana High School, Hyderabad · GPA 10</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <p class="comment">// contact.js</p>
+    <h2 class="section-title">Let's talk</h2>
+    <p class="contact-lead">Open to full-stack developer and SDE roles. Reach out — I usually reply fast.</p>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:manisumanthk@gmail.com">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">manisumanthk@gmail.com</span>
+      </a>
+      <a class="contact-card" href="https://github.com/Manisumanth" target="_blank" rel="noopener">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/Manisumanth</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Built by Manisumanth Kalle · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
