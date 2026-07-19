@@ -1,40 +1,44 @@
 # Manisumanth Kalle — Portfolio
 
-A simple, dark-mode "code editor" themed portfolio site. Plain HTML/CSS/JS — no build step, no dependencies.
+A personal portfolio website showcasing my projects, technical skills, and journey as a Computer Science & Cybersecurity student.
 
-## Files
-- `index.html` — page content
-- `style.css` — styling
-- `script.js` — typed-name effect + mobile menu
-- `assets/Manisumanth_Kalle_Resume.pdf` — downloadable resume
+## Tech Stack
 
-## 1. Push to GitHub
+- HTML5
+- CSS3
+- JavaScript
+- Python
 
-```bash
-cd portfolio
-git init
-git add .
-git commit -m "Initial portfolio site"
-git branch -M main
-git remote add origin https://github.com/Manisumanth/portfolio.git
-git push -u origin main
-```
+## Features
 
-(Create the empty `portfolio` repo on GitHub first at github.com/new — don't add a README/license there, or the push will conflict.)
+- Responsive Design
+- VS Code-inspired UI
+- Terminal-style Hero Section
+- Downloadable Resume
+- Smooth Scrolling Navigation
+- Mobile Friendly
+- Clean Dark Theme
 
-## 2. Deploy on Vercel
+## Sections
 
-1. Go to https://vercel.com and sign in with your GitHub account.
-2. Click **Add New → Project**.
-3. Select your `portfolio` repo.
-4. Framework Preset: choose **Other** (it's plain HTML, no build needed).
-5. Leave Build Command and Output Directory blank.
-6. Click **Deploy**.
+- About
+- Skills
+- Projects
+- Education
+- Contact
 
-Vercel gives you a live URL like `portfolio-manisumanth.vercel.app`. Every future `git push` to `main` auto-redeploys.
+## Live Website
 
-## To customize later
-- Replace project GitHub links in `index.html` (`#projects` section) with your actual repo URLs once each project has its own repo.
-- Add a LinkedIn / LeetCode link in the `#contact` section the same way the GitHub card is written.
-- Swap the resume PDF in `assets/` any time — keep the same filename or update the link in `index.html`.
--
+(Add your Vercel link here after deployment)
+
+## GitHub
+
+https://github.com/Manisumanth
+
+## Contact
+
+Email: manisumanthk@gmail.com
+
+---
+
+Designed and developed by **Manisumanth Kalle**.
